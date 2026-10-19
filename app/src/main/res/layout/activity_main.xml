@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" android:background="#10141C">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:id="@+id/out" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:textColor="#E8F4FF" android:textSize="17sp" android:text="Main Firdaus hoon. Bolo ya likho."/>
+    </ScrollView>
+    <EditText android:id="@+id/inp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Command likho..." android:textColor="#FFFFFF" android:textColorHint="#8899AA"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/mic" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="🎤 Bolo"/>
+        <Button android:id="@+id/send" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Bhejo"/>
+        <Button android:id="@+id/key" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="API Key"/>
+    </LinearLayout>
+</LinearLayout>
